@@ -1,11 +1,12 @@
 // import _ from "lodash";
 // import { useEffect, useState } from "react";
+import { FC } from 'react';
 
 // import { KeyCode, SOLUTION, MAX_GUESSES, WORD_LENGTH } from "./constants";
 
 import "./styles.css";
 
-const App = () => {
+const App: FC = () => {
   return (
     <div className="App">
       <h1>Wordle Clone</h1>
@@ -19,4 +20,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App; 
